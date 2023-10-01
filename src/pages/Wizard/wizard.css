@@ -1,0 +1,205 @@
+.departInput .formgroup {
+  position: relative;
+  padding: 20px 0 0;
+  margin-top: 10px;
+  width: 100%;
+  max-width: 180px;
+}
+
+.departInput .formfield {
+  font-family: inherit;
+  width: 100%;
+  /* width: 200px; */
+  border: none;
+  border: 1px solid #3c87cc;
+  outline: 0;
+  font-size: 17px;
+  color: #3c87cc;
+  padding: 15px 25px;
+  background: transparent;
+  transition: border-color 0.2s;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+.departInput .formfield::placeholder {
+  color: transparent;
+}
+
+.departInput .formfield:placeholder-shown ~ .formlabel {
+  font-size: 17px;
+  cursor: text;
+  top: 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+.departInput .formlabel {
+  position: absolute;
+  top: 10px;
+  margin-left: 15px;
+  display: block;
+  transition: 0.2s;
+  font-size: 17px;
+  color: #3c87cc;
+  pointer-events: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  max-width: 150px;
+  overflow: hidden;
+  background: white;
+}
+
+.departInput .formfield:focus {
+  font-weight: 700;
+}
+
+.departInput .formfield:focus ~ .formlabel {
+  position: absolute;
+  top: 10px;
+  display: block;
+  transition: 0.2s;
+  font-size: 17px;
+  color: #3c87cc;
+  font-weight: 700;
+  background-color: white;
+}
+
+/* reset input */
+.departInput .formfield:required,
+.departInput .formfield:invalid {
+  box-shadow: none;
+}
+/* ///look */
+.industry-inputs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 40px;
+  margin-top: 40px;
+}
+
+.industry-inputs input,
+select {
+  padding: 10px;
+  outline: none;
+  color: #757575;
+  background: #fff;
+  border: 1px solid #3c87cc;
+  border-radius: 10px;
+  font: normal 400 20px "Roboto";
+}
+
+.industry-inputs input::placeholder {
+  font: normal 400 20px "Roboto";
+  color: #8c8c8c;
+}
+
+.industry-inputs select option {
+  font: normal 400 13px "Roboto";
+  color: #3c87cc;
+}
+
+.industry-inputs p,
+.activate-text {
+  margin-top: 5px;
+  font: normal 400 20px "Roboto";
+  color: #3c87cc;
+}
+
+.areas {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.first-area {
+  /* width: 1040px; */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 30px; */
+  justify-content: space-between;
+}
+
+.second-area {
+  width: 1040px;
+  display: flex;
+  column-gap: 80px;
+}
+
+.areas button {
+  /* background-color: #fff; */
+  border: 1px solid #3c87cc;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 200px;
+  height: 45px;
+  font: normal 400 20px "Roboto";
+  /* color: #8c8c8c; */
+}
+
+.areas button i {
+  color: #3c87cc;
+  padding-right: 10px;
+}
+
+#disregard {
+  width: 130px;
+  background-color: #fff;
+  border: 1px solid #3c87cc;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font: normal 400 20px "Roboto";
+  color: #3c87cc;
+}
+/* .wrapper {
+  width: 1040px;
+  height: 100%;
+} */
+
+.add-wizard {
+  margin-left: 5px;
+  height: 45px;
+  width: 200px;
+}
+#wizard-reminder {
+  font: normal 400 28px "Roboto";
+  text-align: center;
+}
+
+#reminder {
+  margin-top: 20px;
+  color: red;
+  font: normal 400 18px "Roboto";
+}
+.wizard-modal-btns {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.wizard-modal-btns button{
+  width: 45%;
+}
+#create {
+  cursor: pointer;
+  height: 40px;
+  background-color: #296198;
+  border: 1px solid #296198;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font: normal 400 20px "Roboto";
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.industry-inputs option{
+  font-size: 18px !important;
+}
+.error{
+  font-size: 26px !important;
+  color:red !important;
+}

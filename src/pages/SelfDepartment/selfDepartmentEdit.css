@@ -1,0 +1,21 @@
+.removeDepartment {
+  width: 30px;
+  height: 30px;
+  background-color: #fa3e32;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+}
+.addNewDepartment{
+    margin-top: 50px;
+}
+.editDepartmentBtns{
+    display: flex;
+    flex-direction: column;
+    row-gap:10px;
+}
+.selfEditBtn a {
+  color:#fff;
+}

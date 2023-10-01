@@ -1,0 +1,214 @@
+@media screen and (max-width: 1024px) {
+/* dashboard start */
+svg{
+  width: 200px !important ;
+}
+.second-one{
+  display: flex;
+  flex-direction: column;
+}
+.second-buttons{
+  margin-top: 20px;
+}
+.second{
+  width: 70%;
+}
+/* dashboard end */
+/* wizard start */
+.industry-inputs{
+  width: 100%;
+}
+.test{
+      width: auto !important;
+} 
+/* wizard end */
+/* chart start */
+.textLi{
+  width: 155px;
+}
+/*chart end*/
+/* matrix start */
+.mine{
+  width: 90%;
+}
+.matrix-text{
+  text-align: center;
+}
+.matrix-text p {
+    font: normal 600 30px "Roboto";
+}
+.department-btns {
+    height: 50px;
+}
+.testAdd{
+  width: auto !important;
+}
+/* matrix end */
+/* userperformance start */
+.mine3{
+  width: 50vw;
+}
+.show{
+  padding: 10px;
+}
+/* userperformance end */
+/* selfdepartmentedit start */
+.selfDepartment{
+  
+  justify-content: space-around !important;
+}
+.selfDepartmentName{
+  width: 45% !important;
+}
+.wrapper2{
+  width: 100% !important;
+}
+/*selfdepartmentedit end */
+/* selftodo start */
+.self-container{
+  width: 100%;
+}
+.part-body{
+  width: 80%;
+  height: 200px;
+}
+.self-head {
+  text-align: center;
+}
+/* selftodo end */
+  .departament{
+    width: 30vw !important;
+  }
+}
+@media screen and (max-width: 768px){
+  .departament{
+    width: 40vw !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* dashboard start */
+  .first-area{
+    display: flex;
+    justify-content: center !important;
+  }
+  .second-area{
+    justify-content: center;
+  }
+  .second-buttons{
+    width: 100%;
+  }
+  .second-buttons button{
+    display: flex;
+    justify-content: center;
+  }
+  .second-left{
+    width: 100%;
+  }
+  .logo{
+    width: auto;
+    height: auto;
+  }
+  .search{
+    display: none !important;
+  }
+  .logo-text p {
+    font: normal 900 28px "MuseoModerno";
+  /* dashboard end */
+}
+/* selfdepartmentedit start */
+.selfDepartmentCount{
+  width: auto !important;
+}
+.wizardHeading p {
+
+    font: normal 600 35px "Roboto";
+/* selfdepartmentedit end */
+}
+
+.removeDepartment{
+  width: 20px !important;
+  height: 20px !important;
+  font-size: 20px !important;
+}
+/* selfchart start */
+.textLi{
+  width: 100px !important;
+}
+
+
+/* selfchart end */
+/* matrix */
+.total-second{
+  width: 100% !important;
+}
+.grab{
+  width: 70% !important;
+}
+.department-btnsBox{
+  width: 70%;
+  display: flex;
+  
+  justify-content: center;
+}
+.mine{
+  width: 70%;
+}
+.matrix-btns{
+  width: 100%;
+}
+.modal{
+  width:70% !important;
+}
+.matrix-btns{
+  justify-content: center;
+}
+.modal-content{
+  width: 100% !important;
+}
+.chart-btns{
+  justify-content: baseline !important;
+ 
+  padding: 40px 0  !important;
+}
+.member .select{
+  width: 100%;
+}
+.industry-inputs, select {
+    padding: 5px;}
+.userpanel-head{
+  display: flex;
+  flex-direction: column;
+}
+.selfEditBtn .magic{
+ width: 100px;
+}
+.magic{
+  padding: 10px;
+}
+.userImg{
+  width: 100px;
+  height: 100px;
+}
+.sidebar-content .sidebar-item .sidebar-content .sidebar-item * span{
+  margin-left: 30px !important;
+}
+.sidebar-content * span{
+  margin-left: 20px !important;
+}
+.sidebar{
+  min-width: auto !important;
+}
+/* selftodo */
+.part-body{
+  margin: 10px 0 10px 10px;
+}}
+@media screen and (max-width: 425px){
+  .departament{
+    width: 50vw !important;
+  }
+}
+@media screen and (max-width:325px){
+  .departament{
+    width: 60vw !important;
+  }
+}

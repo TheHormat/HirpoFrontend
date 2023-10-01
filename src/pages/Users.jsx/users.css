@@ -1,0 +1,211 @@
+.userpanel-container form {
+  width: 90%;
+  margin-top: 30px;
+  /* display: flex;
+flex-direction: column; */
+}
+.one-userinput {
+  display: flex;
+  flex-direction: column;
+}
+.one-userinput label {
+  font: normal 700 20px "Roboto";
+  color: #5f5f5f;
+}
+.one-userinput p {
+  font: normal 700 20px "Roboto";
+  color: #5f5f5f;
+  margin-bottom: 10px;
+}
+.one-userinput select {
+  margin-bottom: 20px;
+  height: 50px;
+}
+.one-userinput input {
+  outline: none;
+  margin: 15px 0 30px 0;
+  padding: 10px;
+  font-size: 20px;
+  height: 40px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+}
+.one-userinput input::placeholder {
+  font: normal 500 16px "Roboto";
+  color: #296198;
+}
+#reset {
+  background: #bad8f7;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  /* gap: 10px; */
+  border: none;
+  font: normal 600 20px "Roboto";
+  color: #2d2d2d;
+}
+.resetModal .one-userinput {
+  width: 100%;
+}
+.resetmodal-btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.resetmodal-btns button {
+  cursor: pointer;
+  width: 45%;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+.reset-cancel {
+  font: normal 400 16px "Roboto";
+  color: #296198;
+  background-color: #f5f5f5;
+}
+.reset-save {
+  background-color: #296198;
+  font: normal 400 16px "Roboto";
+  color: #fff;
+}
+.user-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+.search-user {
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  width: 30vw;
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+  height: 5vh;
+}
+
+.search-user input {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 50px;
+  background-color: transparent !important;
+  color: #000 !important;
+  font-size: 20px;
+  border: none;
+  outline: 0;
+}
+
+.search-user i {
+  color: #cfcfcf;
+  margin: 0 12px;
+}
+.user-body {
+  display: flex;
+height: 40px;
+align-items: center;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+.u {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.u>span{
+  font: normal 600 20px "Roboto";
+}
+.users {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+
+  border-bottom: 1px solid #dddddd;
+}
+.user {
+  padding: 0 10px;
+}
+.user p {
+  font: normal 700 20px "Roboto";
+  color: #000;
+}
+.user a {
+  color: #3c87cc;
+}
+
+.user:first-of-type{
+  border-right: 1px solid gray;
+}
+#add-user {
+  width: 100%;
+  cursor: pointer;
+  background-color: #296198;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  font: normal 400 20px "Roboto";
+  color: #fff !important;
+}
+.add {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+.userpanel-container {
+  width: 100%;
+  margin-left: 25px;
+}
+
+.userpanel-head-left p {
+  font: normal 700 20px "Roboto";
+  color: #000;
+  margin-top: 10px;
+}
+
+.userpanel-text {
+  width: 100%;
+  padding: 30px 40px;
+}
+
+.userpanel-head {
+  margin-top: 20px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border: 1px solid #ebebeb;
+  padding: 30px 40px;
+}
+
+.userpanel-head-right {
+  /* width: 25%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.userpanel-head-right img {
+  margin-bottom: 15px;
+}
+.userpanel-head-right form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.usersNames{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.user-body{
+  height:60px;
+}

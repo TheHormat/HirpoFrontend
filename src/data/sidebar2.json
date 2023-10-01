@@ -1,0 +1,105 @@
+{"items":[
+  {
+    "title": "Dashboard",
+    "path": ""
+  },
+  {
+    "title": "Wizard",
+
+    "path": ""
+  },
+  {
+    "title": "Company board",
+    "childrens": [
+      {
+        "title": "Corporate board",
+        "childrens": [
+          {
+            "icon": "fa-sharp fa-solid fa-chevron-right",
+            "title": "Organizational Chart",
+            "childrens": [
+              {
+                "icon": "fa-sharp fa-solid fa-chevron-right",
+                "title": "Departments",
+                "path": ""
+              },
+              {
+                "icon": "fa-sharp fa-solid fa-chevron-right",
+                "title": "Positions Chart",
+                "path": ""
+              }
+            ]
+          },
+          {
+            "title": "Goals",
+            "path": ""
+          },
+          {
+            "title": "Competencies",
+            "path": ""
+          },
+          {
+            "title": "Competency Framework",
+            "path": ""
+          },
+          {
+            "title": "Weights",
+            "path": ""
+          },
+          {
+            "title": "Users",
+            "path": "",
+            "childrens": [
+              {
+                "icon": "fa-sharp fa-solid fa-chevron-right",
+                "title": "User performance panel",
+                "path": ""
+              },
+              {
+                "icon": "fa-sharp fa-solid fa-chevron-right",
+                "title": "Users",
+                "path": ""
+              }
+            ]
+          },
+          {
+            "title": "Positions",
+            "path": ""
+          }
+        ]
+      },
+      {
+        "title": "User board",
+        "childrens": [
+          {
+            "title": "Messages  ",
+            "path": ""
+          },
+          {
+            "title": "Evaluate",
+            "path": "/selftodo"
+          },
+          {
+            "title": "User panel",
+            "path": "/userproject"
+          },
+          {
+            "title": "History",
+            "path": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Reporting"
+  },
+  {
+    "title": "Projects",
+    "path": ""
+  },
+  {
+    "title": "Settings"
+  }
+]
+}

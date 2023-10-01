@@ -1,0 +1,160 @@
+.second {
+  display: flex;
+  margin: 0 5px;
+}
+
+.block {
+  display: block;
+}
+
+.none {
+  display: none;
+}
+
+.second-buttons {
+  display: flex;
+}
+
+.second-buttons button {
+  cursor: pointer;
+  font: normal 500 16px "Roboto";
+  width: 50%;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.competency {
+  background-color: #296198;
+  border: 1px solid #296198;
+  border-radius: 5px 0 0 5px;
+  padding: 10px 58px;
+  color: #fff;
+}
+
+.goal {
+  background-color: #fff;
+  color: #296198;
+  border: 1px solid #296198;
+  border-radius: 0 5px 5px 0;
+  padding: 10px 58px;
+}
+
+.block p {
+  margin-top: 40px;
+  font: normal 600 24px "Roboto";
+  color: #081E43;
+  text-transform: uppercase;
+}
+
+.second-select select {
+  background-color: #fff;
+  border: 1px solid #296198;
+  padding: 0px 5px 0px 10px;
+  height: 40px;
+  border-radius: 10px;
+  font: normal 400 20px "Roboto";
+  outline: none;
+  color: #296198;
+}
+
+.second-select option {
+  font: normal 400 13px "Roboto";
+  color: #296198;
+}
+
+
+
+.second-one {
+  /* width: 1040px; */
+  /* margin-top: 40px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.second-right {
+  /* width: 45%; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.calendar input {
+  color: #296198;
+  border: 1px solid #296198;
+  border-radius: 10px;
+  height: 40px;
+  padding: 10px;
+  outline: none;
+}
+
+.performers {
+  width: 50%;
+height: 200px;
+  overflow-y: scroll;
+
+}
+
+.top-performers {
+  display: flex;
+  background: #fff;
+  border: 2px solid #296198;
+  border-radius: 10px;
+
+}
+
+.top-performers li {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  width: 100%;
+  height: 45px;
+}
+
+.performers:first-of-type {
+  border-right: 1px solid #296198;
+}
+
+.top-performers p {
+  margin-left: 10px;
+  font: normal 500 20px "Roboto";
+  color: #000000;
+}
+
+.top-performers li:not(:last-of-type) {
+  border-bottom: 1px solid #296198;
+}
+
+
+.performer-head-text {
+  display: flex;
+  justify-content: center;
+}
+/* .second-part{
+  
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+} */
+.top-performers {
+  margin-top: 400px;
+}
+.wrapper {
+  /* width: 1040px; */
+  width: 90%;
+  height: 100%;
+}
+#ProjeName {
+
+  font-size: 26px;
+  color:#296198;
+  
+}
+#ProjeNameDiv {
+height: 40px;
+display: flex;
+  justify-content: right;
+  background-color:white;
+  border-radius: 5px;
+  padding: 5px 30px;
+  border: 2px solid #296198;
+}

@@ -1,0 +1,1125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=MuseoModerno&family=Roboto:wght@100;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* for all pages and components */
+::selection {
+  color: #fff;
+  background: #296198;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.error {
+  font-size: 24px;
+  color: rgb(235, 16, 16);
+}
+
+.invalid {
+  border: 2px solid red !important;
+}
+
+span {
+  color: #3c87cc;
+  margin-left: 5px;
+}
+
+.magic {
+  cursor: pointer;
+  background-color: #296198;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  font: normal 400 20px "Roboto";
+  color: #fff !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1d4467;
+}
+
+.logo-team {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  margin-left: 5px;
+}
+
+.logo-text p {
+  font: normal 900 32px "MuseoModerno";
+  color: #f8f9fa;
+}
+
+.logo-text-blue p {
+  font: normal 900 32px "MuseoModerno";
+  color: #296198;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* self-todo page */
+.self-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-top: 5vh;
+  width: 25vw;
+  border: 1px solid #296198;
+  border-radius: 20px;
+  height: 5vh;
+}
+
+.self-search input {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 50px;
+  background-color: transparent;
+  color: #296198;
+  border: none;
+  outline: 0;
+}
+
+.self-search i {
+  color: #296198;
+  margin: 0 12px;
+}
+
+/* competencyframework page and matrix page */
+
+.grab {
+  width: 1440px;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+legend p {
+  color: #296198;
+  font: normal 600 32px "Roboto";
+  line-height: 38px;
+}
+
+/* reset */
+.reset {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.allow {
+  cursor: pointer;
+  border: none;
+}
+
+.total-second {
+  display: flex;
+  height: auto;
+}
+
+.second {
+  background-color: #fff;
+  /* width: 1543px; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.magic-btns {
+  /* margin-top: 150px; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 30px;
+}
+
+.wizardHeading {
+  padding-top: 15px;
+}
+
+.wizardHeading p {
+  text-align: center;
+  font: normal 600 40px "Roboto";
+  color: #081e43;
+}
+
+/* matrix */
+table {
+  /* width: 100%; */
+  height: auto;
+  border: 1px solid #d5dee7;
+  border-collapse: collapse;
+}
+
+thead th {
+  text-align: center !important;
+  background-color: #1d4467;
+  border-right: 1px solid #70a7da;
+}
+
+th:first-of-type hr {
+  margin: 10px 0;
+}
+
+td {
+  font: normal 600 20px "Roboto";
+  color: #1d4467;
+  border-right: 1px solid #70a7da;
+}
+
+.skill-tds {
+  margin-top: 10px;
+}
+
+.skill-tds td {
+  border: 1px solid #70a7da;
+  border: 1px solid #70a7da;
+}
+
+.skill-tds tbody tr:nth-child(even) td:last-of-type {
+  background-color: #fff;
+  border: 1px solid #70a7da;
+}
+
+.skill-tds tbody tr:nth-child(odd) td:first-of-type {
+  background-color: #98bada;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.skill-tds tbody tr:nth-child(even) td:first-of-type {
+  background-color: #84a7c8;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.weight-tds {
+  margin-top: 10px;
+}
+
+.weight-tds td {
+  border: 1px solid #70a7da;
+  border: 1px solid #70a7da;
+}
+
+.weight-tds tbody tr:nth-child(even) td:last-of-type {
+  background-color: #fff;
+  border: 1px solid #70a7da;
+}
+
+.weight-tds tbody tr:nth-child(odd) td:first-of-type {
+  background-color: #98bada;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.weight-tds tbody tr:nth-child(even) td:first-of-type {
+  background-color: #84a7c8;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.weight-tds {
+  width: 100%;
+}
+
+.matrix-table tbody tr:nth-child(even) {
+  background-color: #d5dee7;
+}
+
+table td {
+  height: 5vh;
+}
+
+table th {
+  padding: 5px;
+  height: 2vh;
+  width: 120px !important;
+}
+
+th {
+  font: normal 500 20px "Roboto";
+  line-height: 30px;
+  color: #fff;
+}
+
+.matrix-table tr {
+  text-align: center;
+  border: 1px solid #70a7da;
+}
+
+.skill-tds tr {
+  text-align: center;
+}
+
+.weight-tds tr {
+  text-align: center;
+}
+
+.matrix-btns {
+  width: 90%;
+  display: flex;
+  column-gap: 30px;
+  justify-content: flex-end;
+}
+
+.addBtn button {
+  cursor: pointer;
+  margin: 5px 0;
+  border: 1px solid #296198;
+  padding: 10px;
+  height: 30px;
+  width: 50%;
+  border-radius: 10px;
+  font: normal 400 20px "Roboto";
+  color: #296198;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.matrix-btns button {
+  cursor: pointer;
+  /* background-color: #fff; */
+  border: 1px solid #296198;
+  padding: 10px 20px;
+  height: 40px;
+  border-radius: 10px;
+  font: normal 400 20px "Roboto";
+  color: #296198;
+  display: flex;
+  align-items: center;
+}
+
+.create button {
+  cursor: pointer;
+  margin-top: 10px;
+  /* background-color: #fff; */
+  border: 1px solid #296198;
+  padding: 10px 20px;
+  height: 40px;
+  border-radius: 10px;
+  font: normal 400 20px "Roboto";
+  color: #296198;
+  display: flex;
+  align-items: center;
+}
+
+.textArea {
+  padding: 10px;
+  outline: none;
+  color: #757575;
+  background: #fff;
+  border: 1px solid #3c87cc;
+  border-radius: 10px;
+  font: normal 400 20px "Roboto";
+  width: 100%;
+  min-height: 50px;
+}
+
+.mine {
+  height: 500px;
+  overflow-y: scroll;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 5vh 0;
+}
+
+.mine-table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.mine-performance-table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.matrix-text p {
+  font: normal 600 40px "Roboto";
+  color: #081e43;
+  margin: 2vh;
+}
+
+.department-btnsBox {
+  border-radius: 5px;
+  margin-top: 2vh;
+}
+
+.department-btns {
+  color: #296198;
+  width: 150px;
+  height: 40px;
+  background-color: #fff;
+  cursor: pointer;
+  border: none;
+  border: 1px solid #296198;
+  font: normal 500 20px "Roboto";
+  transition: background-color 0.3s ease-in-out;
+}
+
+.department-btns:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+.department-btns:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+.editing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ellipse-image {
+  border-left: 3px solid #b4bade;
+  border-radius: 50px;
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.delete-chart-user button {
+  margin-left: 6px;
+  border: none;
+  background-color: #b00f0f;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  color: #fff;
+  font-size: 10px;
+}
+
+.editbtn button {
+  margin-left: 6px;
+  border: none;
+  background-color: #2ab00f;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  color: #fff;
+  font-size: 10px;
+}
+
+.add-member {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #ddeeff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
+  border: none;
+  color: #296198;
+  font-size: 30px;
+  cursor: pointer;
+  margin: 50px;
+}
+
+.test2 {
+  z-index: 6859;
+  position: fixed;
+  height: 400px;
+
+  background-color: rgb(251, 247, 247);
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 40px;
+  transition: 0.5s;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.test {
+  z-index: 6859;
+  position: fixed;
+  height: 400px;
+  width: 25vw !important;
+  background-color: rgb(251, 247, 247);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 40px;
+  transition: 0.5s;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.testAdd {
+  z-index: 6859;
+  position: fixed;
+  height: 400px;
+  width: 25vw;
+  background-color: rgb(251, 247, 247);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 40px;
+  transition: 0.5s;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.add-department {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.background {
+  width: 100vw;
+  height: 600px;
+  background-color: #ededed !important;
+}
+
+/* chartmodal */
+.test2 input {
+  text-align: center;
+  font-size: 24px;
+  width: 240px;
+  height: 40px;
+  outline: none;
+  border: 3px solid #d9d9d9;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.test input {
+  text-align: center;
+  font-size: 24px;
+  width: 240px;
+  height: 40px;
+  outline: none;
+  border: 3px solid #d9d9d9;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.testAdd input {
+  text-align: center;
+  font-size: 24px;
+  width: 240px;
+  height: 40px;
+  outline: none;
+  border: 3px solid #d9d9d9;
+  margin: 5px 0;
+}
+
+.add-new {
+  cursor: pointer;
+  width: 240px;
+  height: 40px;
+  background-color: #296198;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font: normal 400 20px "Roboto";
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cancel-new {
+  cursor: pointer;
+  width: 240px;
+  height: 40px;
+  background-color: #296198;
+  border: 1px solid #296198;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font: normal 400 20px "Roboto";
+  background-color: #fff;
+  color: #296198;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test2 label {
+  font: normal 700 20px "Roboto";
+  color: #000;
+}
+
+.test label {
+  font: normal 700 20px "Roboto";
+  color: #000;
+}
+
+.testAdd label {
+  font: normal 700 20px "Roboto";
+  color: #000;
+}
+
+.blur-background {
+  filter: blur(5px);
+}
+
+.mine3 {
+  width: 50%;
+  margin-top: 5vh;
+}
+
+.mine3 p {
+  font: normal 700 20px "Roboto";
+  color: #000;
+}
+
+.mine3 span {
+  color: #3c87cc;
+  margin-left: 5px;
+}
+
+.mine2 {
+  width: 50%;
+  height: 100%;
+  margin-top: 5vh;
+}
+
+/* //e */
+.mine2 p {
+  font: normal 700 20px "Roboto";
+  color: #000;
+}
+
+.mine2 span {
+  color: #3c87cc;
+  margin-left: 5px;
+}
+
+.normInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* //27 */
+#newNorm {
+  text-align: center;
+  font-size: 24px;
+  width: 240px;
+  height: 40px;
+  outline: none;
+  border: 3px solid #d9d9d9;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* // */
+
+.self-container {
+  margin: 0 auto;
+  width: 1040px;
+  height: 100%;
+}
+
+/* 
+.self-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+.part-text {
+  width: 250px;
+  height: 40px;
+  background-color: #c7d9ec;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+}
+
+.part-text p {
+  font: normal 600 20px "Roboto";
+  color: #000;
+}
+
+/*                  */
+
+#position {
+  font: normal 700 20px "Roboto";
+  margin-top: 5px;
+}
+
+.part-body {
+  margin: 10px 50px 70px 50px;
+  padding: 20px;
+  width: 800px;
+  height: 300px;
+  border: 1px solid #296198;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+
+.show {
+  cursor: pointer;
+  background-color: #296198;
+  border-radius: 10px;
+  border: none;
+  width: 150px;
+  height: 40px;
+  font: normal 400 20px "Roboto";
+  color: #fff !important;
+  margin-top: 10px;
+}
+
+.notification-icon button {
+  border: none;
+  cursor: pointer;
+}
+
+.selftodo-users {
+  width: 70%;
+  display: flex;
+  column-gap: 30px;
+}
+
+.selftodo-user {
+  width: 50%;
+}
+
+.projectsText {
+  margin-top: 20px;
+  border: none;
+  padding: 10px;
+  background-color: #296198;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.projectsText a {
+  color: #fff;
+  font: normal 500 22px "Roboto";
+}
+
+.orange {
+  font-size: 24px;
+  color: orange;
+  /* color: rgb(206, 206, 10); */
+}
+
+.star {
+  margin-top: 10px;
+}
+
+.userImg {
+  width: 150px;
+  object-fit: cover;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+#match {
+  color: red;
+  margin: 10px 0 20px 0;
+
+  font-size: 20px;
+}
+
+#permit {
+  display: none;
+}
+
+.addMemberModal .test form {
+  display: flex;
+  flex-direction: column;
+}
+
+.addMemberModal .test form select {
+  margin: 5px 0;
+}
+
+.addMemberModal .testAdd form {
+  display: flex;
+  flex-direction: column;
+}
+
+.addMemberModal .testAdd form select {
+  margin: 5px 0;
+}
+
+.names {
+  width: 100%;
+  display: flex;
+  text-transform: capitalize;
+  font: normal 400 28px "Roboto";
+  height: 50px;
+}
+
+.name {
+  width: 30%;
+}
+
+.names {
+  height: 50px;
+  border: 1px solid #f0f0f0;
+  padding: 0 10px;
+  box-shadow: 1px 1px 10px 0px #0000001a;
+}
+
+.textDiv {
+  padding: 0 10px;
+  border: 1px solid #f0f0f0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  box-shadow: 1px 1px 10px 0px #0000001a;
+  /* display: flex;
+  width: 100%;
+  align-items: center; */
+}
+
+.member .select {
+  width: 50%;
+}
+
+.member select {
+  font-size: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+.description-image {
+  cursor: pointer;
+  position: relative;
+}
+
+.description-image:hover .hidden {
+  display: block;
+}
+
+.hidden {
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+  height: auto;
+  width: auto;
+  min-width: 200px;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #b4bade;
+  font: normal 600 16px "Roboto";
+  background-color: white;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  z-index: 1231313;
+}
+
+.hidden hr {
+  margin: 10px 0;
+}
+
+.hiddenText {
+  height: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+.wrong {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: normal 400 60px "Roboto";
+  height: 600px;
+}
+
+.charttt {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.chartIcon-image {
+  width: 30%;
+  cursor: pointer;
+  position: relative;
+}
+
+.chartIcon-image:hover .hiddenChart {
+  display: block;
+}
+
+.hiddenChart {
+  position: absolute;
+  bottom: 10px;
+  left: 125px;
+  height: 40px;
+  width: 170px;
+
+  font: normal 600 16px "Roboto";
+  background-color: white;
+  display: none;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  padding: 10px;
+  z-index: 1231313;
+}
+
+.hiddenChartText {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CeoText {
+  font: normal 600 20px "Roboto";
+}
+
+.members select {
+  margin: 10px 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+svg {
+  width: 400px !important;
+}
+
+.circle {
+  border: 10px solid red !important;
+}
+
+text {
+  color: #3778b8 !important;
+}
+
+.periodsDashboard {
+  margin: 50px 0;
+}
+
+.charts {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* svg{
+  width: 45%;
+} */
+.second-select {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.canvasjs-chart-label {
+  font-size: 29px !important;
+}
+
+.canvasjs-chart-axis-label {
+  font-size: 29px !important;
+}
+
+.newChartElement {
+  height: 100px;
+  overflow-y: scroll;
+  border: 1px solid red;
+}
+
+.showing {
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  font: normal 400 20px "Roboto";
+}
+
+.newText {
+  width: 255px;
+  /* overflow-x: scroll; */
+  margin-left: 175px;
+  position: relative;
+}
+
+.textLi {
+  padding: 7px;
+  border-left: none;
+  border: 0.5px solid #3778b8;
+}
+
+#notice {
+  display: none;
+}
+
+.warned {
+  text-align: center;
+}
+
+.newtextLis {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-chart-add-user button {
+  margin-left: 6px;
+  border: none;
+  background-color: #b00f0f;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+}
+
+.inputs svg {
+  width: 200px !important;
+}
+
+.exclamation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(30, 48, 80);
+}
+
+.userlefrr {
+  display: flex;
+}
+
+.user-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+#way {
+  margin-right: 10px;
+}
+
+.hoveredway {
+  display: none;
+}
+
+.exclamation {
+  position: relative;
+}
+
+.exclamation:hover .hoveredway {
+  display: block;
+  color: #000;
+  position: absolute;
+
+  left: 45px;
+  bottom: 5px;
+}
+
+.u {
+  width: 110%;
+}
+
+#eva {
+  margin-right: 60px;
+}
+
+#mod {
+  cursor: pointer;
+  background-color: #296198;
+  border-radius: 10px;
+  border: none;
+  width: 10%;
+  height: 30px;
+  font: normal 400 20px "Roboto";
+  color: #fff !important;
+  margin-top: 10px;
+  margin-left: auto;
+
+}
